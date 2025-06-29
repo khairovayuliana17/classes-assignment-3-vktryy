@@ -6,6 +6,8 @@
 class BankAccount {
   private:
     // your code here
+    std::string accountNumber = "originalNumber";
+    double balance = 0.0;
 
   public:
     // Геттеры
